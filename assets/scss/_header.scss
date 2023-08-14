@@ -2,6 +2,7 @@
 
 .hero {
   background: transparent;
+  height: 10vh;
 }
 
 .hero__title {
@@ -23,6 +24,7 @@
 .nav-link {
   display: inline-block;
   font-weight: 600;
+  transition: $trancition;
 }
 
 .nav-link:hover {

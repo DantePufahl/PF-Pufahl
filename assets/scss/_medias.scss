@@ -11,4 +11,16 @@
   .hero{
     background-color: $color-principal;
   }
+  .nav-link:hover {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+/* home media */
+
+@media (max-height: 768px) {
+  .section__home{
+    height: 90vh;
+}
 }
