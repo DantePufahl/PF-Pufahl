@@ -1,0 +1,14 @@
+/* header media */
+
+@media (max-width: 575px) {
+  .nav-item {
+    padding-left: 0;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0;
+  }
+  .hero{
+    background-color: $color-principal;
+  }
+}

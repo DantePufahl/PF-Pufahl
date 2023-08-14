@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+/* header */
+.hero {
+  background: transparent;
+}
+
+.hero__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 25px;
+  margin-right: 0.5rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.nav-link {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #ffc800;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  width: 1.5rem;
+}
+
+/* header media */
+@media (max-width: 575px) {
+  .nav-item {
+    padding-left: 0;
+  }
+  .nav-link {
+    padding: 0.5rem 0;
+  }
+  .hero {
+    background-color: #ffc800;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
