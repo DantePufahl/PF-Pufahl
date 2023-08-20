@@ -1,0 +1,13 @@
+/* clases que se repiten */
+
+.btn__home {
+    border: 3px solid black;
+    font-weight: 700;
+    transition: $trancition;
+    background-color: white;
+  }
+  
+  .btn__home:hover {
+    border: 3px solid black;
+    background-color: $color-principal;
+  }
