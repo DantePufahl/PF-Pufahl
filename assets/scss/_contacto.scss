@@ -1,0 +1,54 @@
+.btn__home {
+    border: 3px solid black;
+    font-weight: 700;
+    transition: color 0.4s, background-color 0.4s ease-in-out;
+    background-color: white;
+}
+
+.btn__home:hover {
+    border: 3px solid black;
+    background-color: #ffb700;
+}
+
+/* otras clases y estilos aquí */
+
+/* Estilos para el formulario de contacto */
+.contact__form {
+    padding: 4rem 0;
+    background-color: #f7f7f7;
+}
+
+.contact__form .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact__form h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form__group {
+    margin-bottom: 1.5rem;
+}
+
+.form__group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form__group input,
+.form__group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form__group textarea {
+    resize: vertical;
+}
+
