@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
 /* base */
 * {
@@ -48,6 +47,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.hero__title a {
+  text-decoration: none;
+  color: black;
 }
 
 .logo {
@@ -142,7 +145,7 @@ body {
   justify-content: center;
   margin-bottom: 1rem;
 }
-.banner__section h3 {
+.banner__section h1 {
   text-align: center;
   color: #ffc800;
   font-size: 32px;
@@ -229,29 +232,19 @@ body {
   text-align: left;
 }
 
+/* Ubicacion */
 .ubication {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
 }
 .ubication iframe {
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  height: 60vh;
 }
 
-.btn__home {
-  border: 3px solid black;
-  font-weight: 700;
-  transition: color 0.4s, background-color 0.4s ease-in-out;
-  background-color: white;
-}
-
-.btn__home:hover {
-  border: 3px solid black;
-  background-color: #ffb700;
-}
-
-/* otras clases y estilos aquí */
-/* Estilos para el formulario de contacto */
+/* contacto */
 .contact__form {
   padding: 4rem 0;
   background-color: #f7f7f7;
